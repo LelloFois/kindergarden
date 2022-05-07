@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+nav a {
+    padding: 3em;
+    text-decoration: none;
+    color: #000;
+}
+
+.header-title {
+    width: 100%;
+    height: 30rem;
+    background-image: url('graphics/banner.jpg');
+    background-position: center;
+    
+}
+
+
+
+.header-title_letter {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    
+    padding-left: 10em;
+    padding-top: 1em;
+    
+}
+
+.header-title_underline {
+    border-bottom: 2px solid white;
+    padding-bottom: 0.3em;
+}
+
+
+.letter-b {
+    color: yellow;
+}
+
+.letter-i {
+    color: red;
+}
+
+.letter-k {
+    color: blue;
+    }
+
+.mission {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+    background-color: #FFE964;
+    margin-top: -1em;
+    padding: 4em 22em 4em;
+}
+
+.mission h2 {
+    font-size: 3em;
+    font-weight: 900;
+    
+}
+
+.about-us {
+    font-family: 'Roboto', sans-serif;
+    padding: 4em 22em 4em;
+
+
+}
+
+.about-us h2 {
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.team {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 4em 22em 4em;
+    background-color: #FF523D;
+}
+
+.team h2 {
+    font-weight: 900;
+    font-size: 3em;
+    
+}
+
+.team__text {
+    text-align: center;
+    /* font-size: 0.8em; */
+}
+
+.team_name {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.team_text_move {
+    display: block;
+    margin: 2em;
+}
+
+.team img {
+    width: 10em;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #223c88;
+    color:#fff;
+    padding: 4em 22em 4em;
+}
+
+footer h2 {
+    font-size: 3em;
+    font-weight: 900;
+}
